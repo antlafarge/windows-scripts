@@ -7,3 +7,7 @@
 ## Check disk (check only healthy clusters)
 
 `chkdsk /f /v /r D:`
+
+## Check disk help
+
+`chkdsk /?`
