@@ -14,6 +14,7 @@ foreach ($password in $passwords)
     else
     {
         Write-Host $password " PASSED!"
+        Set-Content -Path .\PASSWORD_FOUND.txt -Value "$password"
         break
     }
 }
