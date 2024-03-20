@@ -2,7 +2,7 @@
 
 ## Check full disk (recheck all clusters)
 
-`chkdsk /f /v /r /b D:`
+`chkdsk /f /v /r /b D:`  
 *This is for NTFS volumes, remove the `/b` option for FAT32 volumes.*
 
 ## Check disk (check only healthy clusters)
