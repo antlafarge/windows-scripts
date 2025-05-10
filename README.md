@@ -25,3 +25,9 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```ps1
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
+
+## Change the policy for the terminal process
+
+```ps1
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
+```
