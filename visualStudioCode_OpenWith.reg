@@ -1,21 +1,22 @@
 Windows Registry Editor Version 5.00
+
 ; Open files
 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code]
 @="Edit with VS Code"
-"Icon"="C:\\Users\\erqso\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe,0"
+"Icon"="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\""
 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command]
-@="\"C:\\Users\\erqso\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
-; This will make it appear when you right click ON a folder
-; The "Icon" line can be removed if you don't want the icon to appear
+@="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\"" \"%1\""
+
+; Right click ON a folder
 [HKEY_CLASSES_ROOT\Directory\shell\vscode]
 @="Open Folder as VS Code Project"
-"Icon"="\"C:\\Users\\erqso\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\",0"
+"Icon"="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\""
 [HKEY_CLASSES_ROOT\Directory\shell\vscode\command]
-@="\"C:\\Users\\erqso\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
-; This will make it appear when you right click INSIDE a folder
-; The "Icon" line can be removed if you don't want the icon to appear
+@="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\"" \"%1\""
+
+; Right click INSIDE a folder
 [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode]
 @="Open Folder as VS Code Project"
-"Icon"="\"C:\\Users\\erqso\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\",0"
+"Icon"="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\""
 [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command]
-@="\"C:\\Users\\erqso\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
+@="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\"" \"%V\""
