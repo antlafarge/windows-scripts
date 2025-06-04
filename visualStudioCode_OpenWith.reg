@@ -10,6 +10,7 @@ Windows Registry Editor Version 5.00
   5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,\
   00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,\
   78,00,65,00,22,00,20,00,22,00,25,00,31,00,22,00,00,00
+; "%LocalAppData%\Programs\Microsoft VS Code\Code.exe" "%1"
 
 ; Right click on a folder
 [HKEY_CLASSES_ROOT\Directory\shell\vscode]
@@ -21,6 +22,7 @@ Windows Registry Editor Version 5.00
   5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,\
   00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,\
   78,00,65,00,22,00,20,00,22,00,25,00,31,00,22,00,00,00
+; "%LocalAppData%\Programs\Microsoft VS Code\Code.exe" "%1"
 
 ; Right click in a folder (background)
 [HKEY_CLASSES_ROOT\Directory\Background\shell\vscode]
@@ -32,3 +34,4 @@ Windows Registry Editor Version 5.00
   5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,\
   00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,\
   78,00,65,00,22,00,20,00,22,00,25,00,56,00,22,00,00,00
+; "%LocalAppData%\Programs\Microsoft VS Code\Code.exe" "%V"
